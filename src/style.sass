@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&display=swap')
+@mixin flex
+    display: flex
+    justify-content: center
+    align-items: center
+    
+* 
+    box-sizing: border-box
+    font-size: 15px
+    font-family: 'Barlow Semi Condensed', sans-serif
+    margin: 0
+    padding: 0
+html
+    width: 100%
+    body
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center 
+        #root
+            width: 100%
+            .ps_1
+                position: absolute
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                max-width: 388px
+                width: 388px
+                height: 553px
+                border: 1px solid #cccccc
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+.ty_2
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 8px
+    .sd_3
+        @include flex
+        flex-direction: column
+        align-items: flex-start
+        margin-bottom: 16px
+        div
+            text-transform: uppercase
+            font-size: 34px
+            font-weight: 600
+    img
+        width: 80px 
+        height: 80px
+.ds_4
+    width: 240px
+    height: 50px
+    margin: 16px 0
+    input
+        padding: 12px
+        font-size: 15px
+        line-height: 18px
+        width: 100%
+        height: 100%
+        border: 1px solid rgba(0, 0, 0, 0.2)
+        border-radius: 20px
+        background: #F7F2F2 
+
+        &::placeholder
+            color: #cac7c7
+        &:focus
+            outline: 1px solid #2e89ff
+.ld_2
+    width: 100%
+    @include flex
+    .am_4
+        width: 100px
+        @include flex
+        height: 34px
+        color: #fff
+        border-radius: 10px
+        background: #FF785A
+        cursor: pointer
+.ds_5
+    width: 100%
+    border-bottom: 1px solid #000
+.wo_1
+    width: 100%
+    @include flex
+    gap: 10px
+    .rw_2   
+    .am_3
+        cursor: pointer
+        color: #FF785A
+.rp_2   
+    width: 100%
+    @include flex
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 999
+    padding: 0 40px
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+    .ds_4
+        max-width: 1244px
+        width: 100%
+        height: 100px
+        @include flex
+        justify-content: space-between
+        align-items: center
+        margin: 0
+        .cm_2
+            width: 80px
+            height: 80px
+            img
+                height: 100%
+                width: 100%
+.kl_3
+    @include flex
+    .fk_4
+        padding: 0 20px
+.sk_5
+    @include flex
+.active-link
+    div
+        color: #FF785A !important
+.mv_4
+    position: relative
+    top: 100px
+    width: 100%
+    @include flex
+    height: calc( 100vh - 101px )
+    >div
+        flex: 1 1 0
+        height: 100%
+    .ik_4
+        width: 100%
+        height: 100%
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+.tl_3
+    padding: 70px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 20px
+    .ds_7
+        font-size: 18px
+.dsk_5
+    position: relative
+    top: 100px  
+.dsewl
+    div
+        font-size: 18px
+        font-weight: 400 !important
+.active-link-1
+    color: #FF785A !important
+    box-shadow: 0 4px 0 #FF785A inset
+.koweeqw
+    font-size: 20px
+    &:focus
+        outline: none
+.dskwqwqeqa
+    &::first-letter
+        text-transform: capitalize
